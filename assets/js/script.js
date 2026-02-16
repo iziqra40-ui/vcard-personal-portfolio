@@ -144,16 +144,153 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
+    // Get the page name from the button text
+    const pageName = this.textContent.trim().toLowerCase();
+    
+    // Hide all pages and remove active class from all buttons
+    pages.forEach(page => {
+      page.classList.remove("active");
+    });
+    
+    navigationLinks.forEach(link => {
+      link.classList.remove("active");
+    });
+    
+    // Show the clicked page
+    pages.forEach(page => {
+      if (page.dataset.page === pageName) {
+        page.classList.add("active");
       }
-    }
+    });
+    
+    // Highlight the clicked button
+    this.classList.add("active");
+    
+    // Scroll to top
+    window.scrollTo(0, 0);
 
   });
+}
+
+
+/**
+ * COLLAPSIBLE SECTIONS
+ */
+
+let isEducationExpanded = false;
+let isSkillsExpanded = false;
+let isLanguagesExpanded = false;
+let isProjectsExpanded = false;
+let isAchievementsExpanded = false;
+
+function toggleEducation() {
+  const items = document.querySelectorAll('#edu-more');
+  const btn = document.querySelector('.see-more-btn');
+  const btnText = document.getElementById('edu-btn-text');
+  
+  isEducationExpanded = !isEducationExpanded;
+  
+  items.forEach(item => {
+    if (isEducationExpanded) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+  
+  if (btn) {
+    btn.classList.toggle('expanded', isEducationExpanded);
+  }
+  
+  btnText.textContent = isEducationExpanded ? 'Show Less' : 'See More';
+}
+
+function toggleSkills() {
+  const items = document.querySelectorAll('#skills-more');
+  const btns = document.querySelectorAll('.see-more-btn');
+  const btnText = document.getElementById('skills-btn-text');
+  
+  isSkillsExpanded = !isSkillsExpanded;
+  
+  items.forEach(item => {
+    if (isSkillsExpanded) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+  
+  btns.forEach(btn => {
+    if (btn.querySelector('#skills-btn-text')) {
+      btn.classList.toggle('expanded', isSkillsExpanded);
+    }
+  });
+  
+  btnText.textContent = isSkillsExpanded ? 'Show Less Skills' : 'See More Skills';
+}
+
+function toggleLanguages() {
+  const items = document.querySelectorAll('#lang-more');
+  const btnText = document.getElementById('lang-btn-text');
+  
+  isLanguagesExpanded = !isLanguagesExpanded;
+  
+  items.forEach(item => {
+    if (isLanguagesExpanded) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+  
+  const btn = Array.from(document.querySelectorAll('.see-more-btn')).find(b => b.querySelector('#lang-btn-text'));
+  if (btn) {
+    btn.classList.toggle('expanded', isLanguagesExpanded);
+  }
+  
+  btnText.textContent = isLanguagesExpanded ? 'Show Less Languages' : 'See More Languages';
+}
+
+function toggleProjects() {
+  const items = document.querySelectorAll('#projects-more');
+  const btnText = document.getElementById('projects-btn-text');
+  
+  isProjectsExpanded = !isProjectsExpanded;
+  
+  items.forEach(item => {
+    if (isProjectsExpanded) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+  
+  const btn = Array.from(document.querySelectorAll('.see-more-btn')).find(b => b.querySelector('#projects-btn-text'));
+  if (btn) {
+    btn.classList.toggle('expanded', isProjectsExpanded);
+  }
+  
+  btnText.textContent = isProjectsExpanded ? 'Show Less Details' : 'See More Details';
+}
+
+function toggleAchievements() {
+  const items = document.querySelectorAll('#achieve-more');
+  const btnText = document.getElementById('achieve-btn-text');
+  
+  isAchievementsExpanded = !isAchievementsExpanded;
+  
+  items.forEach(item => {
+    if (isAchievementsExpanded) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
+  
+  const btn = Array.from(document.querySelectorAll('.see-more-btn')).find(b => b.querySelector('#achieve-btn-text'));
+  if (btn) {
+    btn.classList.toggle('expanded', isAchievementsExpanded);
+  }
+  
+  btnText.textContent = isAchievementsExpanded ? 'Show Less Certifications' : 'See More Certifications';
 }

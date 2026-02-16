@@ -1,0 +1,134 @@
+================================================================================
+                           CURRICULUM VITAE
+================================================================================
+
+IQRA
+Mathematics Student | AI Enthusiast
+Multan, Pakistan
+Email: iziqra40@gmail.com
+Phone: 0308-7704476
+LinkedIn: https://www.linkedin.com/in/iqra-73051a270
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+I'm a passionate Mathematics student driven by the vision of turning numbers 
+into real-world solutions. I believe in the power of mathematical thinking to 
+solve complex problems and create meaningful impact in the world.
+
+================================================================================
+EDUCATION
+================================================================================
+
+Bachelor of Science in Mathematics (2022 - 2026)
+Bahauddin Zakriya University, Multan
+- Focused on mathematical foundations, problem-solving, and analytical thinking
+- Applications in real-world scenarios
+
+Intermediate in Computer Science (ICS) (2020 - 2022)
+Pacific Group of College, Multan
+- Foundational computer science studies including programming, logic, and 
+  computational concepts
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Programming Languages:
+- C++                                           85%
+- Python (Basic)                               70%
+
+Software & Tools:
+- MS Word                                      90%
+- MS Excel                                     85%
+- Adobe Photoshop                              85%
+- Canva                                        88%
+- Matlab                                       80%
+- Power BI & Dashboards                        80%
+
+Specializations:
+- Graphic Design                               85%
+- AI Chatbots & Agents                         75%
+- Social Media Marketing                       80%
+
+================================================================================
+SOFT SKILLS
+================================================================================
+
+- Strong Communication           90%
+- Teamwork                       90%
+- Time Management               85%
+
+================================================================================
+LANGUAGES
+================================================================================
+
+- Punjabi                        95%
+- Urdu                           95%
+- English                        90%
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+Executive Member
+CDLC (CASPAM Debating and Literary Council)
+
+Engaged in speech competitions and event organization for Urdu literature.
+Over two years of experience in:
+- Organizing literary events
+- Coordinating with members
+- Participating in debate competitions
+- Promoting linguistic and literary excellence
+
+================================================================================
+KEY PROJECTS
+================================================================================
+
+1. Functional Analysis and Neural Networks
+   - A comprehensive project exploring the mathematical powerhouse of AI
+   - Developed an in-depth analysis of how functional analysis concepts 
+     underpin neural network architectures
+   - Transformed complex mathematical theories into practical AI applications
+   - Technologies: Mathematics, Neural Networks, AI, Python
+
+2. Iris Flower Prediction - Machine Learning
+   - Implemented a machine learning model to predict iris flower species
+   - Based on physical characteristics
+   - Utilized classification algorithms, data preprocessing, and model 
+     evaluation techniques
+   - Technologies: Machine Learning, Python, Data Science, Classification
+
+================================================================================
+ACHIEVEMENTS & CERTIFICATIONS
+================================================================================
+
+Urdu Literature Speech Competitions (2023-2026)
+- Organized and participated in speech competitions
+- Enhanced public speaking and presentation skills
+- Active engagement in competitive speaking events
+
+Digital Literacy Program (DLP) Certification (2023)
+- Certified in Digital Literacy Program
+- Proficiency in digital tools and online communication skills
+
+Professional Certifications
+- Freelancing
+- Fiverr Course
+- Digital Calligraphy
+- Video Editing
+
+================================================================================
+HOBBIES & INTERESTS
+================================================================================
+
+- Reading
+- Travelling
+- Urdu Literature
+
+================================================================================
+REFERENCES
+================================================================================
+
+Available upon request
